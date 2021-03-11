@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "assets/sass/style.scss",
+        "assets/sass/_reset.scss",
+        "assets/sass/_setting.scss",
+        "assets/sass/_main.scss",
+        "assets/sass/_mixin.scss",
+        "assets/sass/_module.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
