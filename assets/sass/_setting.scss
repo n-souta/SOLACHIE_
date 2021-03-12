@@ -4,6 +4,8 @@
 // ============================================================
 
 // 幅関係の設定 -----------------------------------------------
+$width-base:1200px; //全体
+$width-main:1050px; //メインエリアの幅
 
 // フォント関係の設定 -----------------------------------------------
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
@@ -62,8 +64,8 @@ p{
 html {
   box-sizing: border-box;
   font-size: 100%;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
   @include responsive(sm){
     font-size: 92.9%;
   }
@@ -71,3 +73,10 @@ html {
     font-size: 85.7%;
   }
 }
+
+// z-indexの設定 -----------------------------------------------
+$layer:(
+  modal:100,
+  header:20,
+  default:1
+);

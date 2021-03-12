@@ -384,8 +384,8 @@ p {
 html {
   box-sizing: border-box;
   font-size: 100%;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 767px) {
@@ -398,6 +398,14 @@ html {
   html {
     font-size: 85.7%;
   }
+}
+
+.modal {
+  z-index: 100;
+}
+
+.header {
+  z-index: 20;
 }
 
 .btn {
@@ -506,6 +514,52 @@ html {
   right: -5px;
 }
 
+.header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+  transition: .3s;
+}
+
+.header .header__logo {
+  position: relative;
+  padding-top: 33px;
+  padding-bottom: 30px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.header .header__logo img {
+  width: 100%;
+}
+
+.index-new {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.index-new .index-new__content-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  background: yellow;
+}
+
+.index-new .index-new__content-wrapper .index-new__content-box {
+  width: 90%;
+  max-width: 1050px;
+  display: block;
+  margin: 0 auto;
+  background: red;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -517,6 +571,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   position: relative;
+  background: #f6f3ec;
+  height: 3000px;
 }
 
 img {

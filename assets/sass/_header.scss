@@ -1,0 +1,24 @@
+@charset "UTF-8";
+// ============================================================
+// ヘッダー
+// ============================================================
+
+.header{
+  background:$white;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  box-shadow:0 4px 7px rgba(0, 0, 0, 0.1);
+  transition: .3s;
+  .header__logo{
+    position: relative;
+    padding-top:33px;
+    padding-bottom:30px;
+    width:250px;
+    margin:0 auto;
+    img{
+      width:100%;
+    }
+  }
+}
