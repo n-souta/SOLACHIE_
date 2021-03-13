@@ -852,6 +852,187 @@ html {
   .footer {
     padding: 15px 0;
   }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 8px 8px  #97907e30;
+    position: relative;
+  }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-caption {
+    width: 100%;
+    max-height: 300px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-caption img {
+    border-radius: 6px 6px 0 0;
+    object-fit: cover;
+  }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text {
+    width: 100%;
+    margin-left: 0;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 0 0 6px 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 999;
+    position: relative;
+  }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-tag {
+    background: #29abe2;
+    border-radius: 100vh;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(30px, -50%);
+    z-index: 999;
+  }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-tag a {
+    color: #fff;
+    font-size: 14px;
+    font-size: 0.875rem;
+    padding: 8px 21px;
+  }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-title {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-title a {
+    color: #333;
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.8;
+  }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-content {
+    margin-bottom: 20px;
+  }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-content a {
+    color: #333;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 2;
+  }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-date {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-date a {
+    font-size: 14px;
+    font-size: 0.875rem;
+    color: #888;
+  }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-date a .fa-clock {
+    margin-right: 9px;
+  }
+  .index-new .index-new__article--sm .swiper-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 8px 8px  #97907e30;
+    position: relative;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-caption {
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-caption img {
+    border-radius: 6px 6px 0 0;
+    object-fit: cover;
+    width: 100%;
+    min-height: 150px;
+    height: auto;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text {
+    width: 100%;
+    margin-left: 0;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 0 0 6px 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    z-index: 999;
+    position: relative;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-tag {
+    background: #29abe2;
+    border-radius: 100vh;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(15px, -50%);
+    z-index: 999;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-tag a {
+    color: #fff;
+    font-size: 14px;
+    font-size: 0.875rem;
+    padding: 8px 21px;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-title {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-title a {
+    color: #333;
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.8;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-content {
+    margin-bottom: 20px;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-content a {
+    color: #333;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 2;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-date {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-date a {
+    font-size: 14px;
+    font-size: 0.875rem;
+    color: #888;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-date a .fa-clock {
+    margin-right: 9px;
+  }
+  .index-new .index-new__article--sm .article__new-icon::after {
+    content: "";
+    position: absolute;
+    background: url(../assets/img/icon_07.png);
+    background-size: cover;
+    width: 58px;
+    height: 58px;
+    top: 0;
+    right: 0;
+    transform: translate(30%, -30%);
+    z-index: 999;
+  }
 }
 
 .index-new {
@@ -1086,201 +1267,6 @@ html {
 }
 
 .index-new .index-new__article--md .article__new-icon::after {
-  content: "";
-  position: absolute;
-  background: url(../assets/img/icon_07.png);
-  background-size: cover;
-  width: 58px;
-  height: 58px;
-  top: 0;
-  right: 0;
-  transform: translate(30%, -30%);
-  z-index: 999;
-}
-
-.index-new .index-new__article .index-new__article-list {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-}
-
-.index-new .index-new__article .index-new__article-item:first-child {
-  width: 100%;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-}
-
-.index-new .index-new__article .index-new__article-item:first-child .index-new__article-caption {
-  width: calc((50% + 25px));
-  margin-bottom: 20px;
-  margin-top: -20px;
-}
-
-.index-new .index-new__article .index-new__article-item:first-child .index-new__article-caption img {
-  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
-}
-
-.index-new .index-new__article .index-new__article-item:first-child .index-new__article-text {
-  width: calc((50% + 25px));
-  margin-left: -30px;
-  background: #fff;
-  box-shadow: 8px 8px  #97907e30;
-  border-radius: 6px;
-  padding-left: 30px;
-  padding-right: 34px;
-  padding-top: 50px;
-  padding-bottom: 54px;
-  z-index: 999;
-  position: relative;
-}
-
-.index-new .index-new__article .index-new__article-item:first-child .index-new__article-text .article-tag {
-  background: #29abe2;
-  border-radius: 100vh;
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
-.index-new .index-new__article .index-new__article-item:first-child .index-new__article-text .article-tag a {
-  color: #fff;
-  font-size: 12px;
-  font-size: 0.75rem;
-  padding: 8px 21px;
-}
-
-.index-new .index-new__article .index-new__article-item:first-child .index-new__article-text .article-title {
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.index-new .index-new__article .index-new__article-item:first-child .index-new__article-text .article-title a {
-  color: #333;
-  font-size: 20px;
-  font-size: 1.25rem;
-  font-weight: bold;
-  line-height: 2;
-}
-
-.index-new .index-new__article .index-new__article-item:first-child .index-new__article-text .article-content {
-  margin-bottom: 45px;
-}
-
-.index-new .index-new__article .index-new__article-item:first-child .index-new__article-text .article-content a {
-  color: #333;
-  font-size: 14px;
-  font-size: 0.875rem;
-  font-weight: normal;
-  line-height: 2;
-}
-
-.index-new .index-new__article .index-new__article-item:first-child .index-new__article-text .article-date {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.index-new .index-new__article .index-new__article-item:first-child .index-new__article-text .article-date a {
-  font-size: 14px;
-  font-size: 0.875rem;
-  color: #888;
-}
-
-.index-new .index-new__article .index-new__article-item:first-child .index-new__article-text .article-date a .fa-clock {
-  margin-right: 9px;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child) {
-  position: relative;
-  width: calc((100% - 90px) / 3);
-  border-radius: 6px;
-  background: #fff;
-  box-shadow: 8px 8px #97907e30;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child):not(:last-child), .index-new .index-new__article .index-new__article-item:not(:first-child):not(:nth-child(3n+1)) {
-  margin-right: 45px;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child) .index-new__article-caption {
-  border-radius: 6px 6px 0 0;
-  overflow: hidden;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child) .index-new__article-caption img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child) .index-new__article-text {
-  position: relative;
-  padding-left: 30px;
-  padding-right: 34px;
-  padding-top: 30px;
-  padding-bottom: 32px;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child) .index-new__article-text .article-tag {
-  background: #29abe2;
-  border-radius: 100vh;
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(30px, -50%);
-  z-index: 999;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child) .index-new__article-text .article-tag a {
-  color: #fff;
-  font-size: 12px;
-  font-size: 0.75rem;
-  padding: 8px 21px;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child) .index-new__article-text .article-title {
-  position: relative;
-  margin-bottom: 20px;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child) .index-new__article-text .article-title a {
-  color: #333;
-  font-size: 16px;
-  font-size: 1rem;
-  font-weight: bold;
-  line-height: 2;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child) .index-new__article-text .article-content {
-  margin-bottom: 40px;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child) .index-new__article-text .article-content a {
-  color: #333;
-  font-size: 14px;
-  font-size: 0.875rem;
-  font-weight: normal;
-  line-height: 2;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child) .index-new__article-text .article-date {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child) .index-new__article-text .article-date a {
-  font-size: 14px;
-  font-size: 0.875rem;
-  color: #888;
-}
-
-.index-new .index-new__article .index-new__article-item:not(:first-child) .index-new__article-text .article-date a .fa-clock {
-  margin-right: 9px;
-}
-
-.index-new .index-new__article .article__new-icon::after {
   content: "";
   position: absolute;
   background: url(../assets/img/icon_07.png);
