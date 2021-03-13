@@ -17,7 +17,6 @@
   display: block;
   margin: 0 auto;
   position: relative;
-  background:yellow;
 }
 
 @mixin box{
@@ -25,7 +24,30 @@
   max-width: $width-main;
   display: block;
   margin:0 auto;
-  background:red;
+}
+
+@mixin section-title {
+  display: flex;
+  align-items: center;
+  margin-bottom:10px;
+  img{
+    z-index: 10;
+    max-width:95px;
+  }
+  h2{
+    @include fz(28);
+    position: relative;
+    padding-left:17px;
+    color:$deep-dark;
+    letter-spacing: 3px;
+  }
+  @include responsive(sm){
+    img{
+      max-width:95px;
+      width:15vw;
+    }
+  }
+  
 }
 
 // z-index設定 ---------------------------------------------------

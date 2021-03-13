@@ -4,6 +4,12 @@
 // ============================================================
 
 @include responsive(sm){
+  .sm{
+    display: block;
+  }
+  .md{
+    display: none;
+  }
   .header{
     .header__inner{
       .header__logo{
@@ -29,4 +35,5 @@
   .footer{
     padding: 15px 0;
   }
+  
 }

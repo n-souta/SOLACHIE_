@@ -34,8 +34,7 @@ $yellow:#ffff00;
 $breakpoints: (
   'xs': (max-width: 575px),
   'sm': (max-width: 768px),
-  'md': (max-width: 991px),
-  'lg': (min-width: 992px)
+  'md': (min-width: 769px)
 ) !default;
 
 @mixin responsive($breakpoint){
@@ -74,8 +73,7 @@ html {
 
 // z-indexの設定 -----------------------------------------------
 $layer:(
-  modal:100,
-  header:20,
+  header:9999,
   default:1
 );
 
