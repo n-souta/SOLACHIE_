@@ -33,8 +33,9 @@ $yellow:#ffff00;
 // ブレイクポイント -----------------------------------------------
 $breakpoints: (
   'xs': (max-width: 575px),
-  'sm': (max-width: 767px),
-  'md': (min-width: 768px)
+  'sm': (max-width: 768px),
+  'md': (max-width: 991px),
+  'lg': (min-width: 992px)
 ) !default;
 
 @mixin responsive($breakpoint){
@@ -53,9 +54,6 @@ $breakpoints: (
 @mixin fz($size){
   font-size:$size+ px;
   font-size:($size/16)+rem;
-}
-h1{
-  @include fz(48);
 }
 p{
   @include fz(16);
@@ -80,3 +78,13 @@ $layer:(
   header:20,
   default:1
 );
+
+// hamburger-menuの設定 -----------------------------------------------
+$hamburger-menu-size: 38px;
+$hamburger-menu-bg-color: $black;
+$hamburger-menu-line-height: 2px;
+$hover-line-height: $hamburger-menu-line-height;
+$hover-color: $yellow;
+$content-bg-color: $blue;
+$main-color: $white;
+$anim-duration: .4s;

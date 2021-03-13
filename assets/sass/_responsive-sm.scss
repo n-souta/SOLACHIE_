@@ -1,0 +1,32 @@
+@charset "UTF-8";
+// ============================================================
+// responsive sm
+// ============================================================
+
+@include responsive(sm){
+  .header{
+    .header__inner{
+      .header__logo{
+        padding-top:20px;
+        padding-bottom: 20px;
+        max-width: 50vw;
+      }
+      .header__left{
+        display: none;
+      }
+      .header__right{
+        display: none;
+      }
+      .header__sidebar{
+        top:20px;
+      }
+      .header__gnav{
+        display: none;
+      }
+
+    }
+  }
+  .footer{
+    padding: 15px 0;
+  }
+}
