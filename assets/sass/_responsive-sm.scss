@@ -51,8 +51,8 @@
           max-height:300px;
           margin-bottom:0;
           margin-top:0;
+          border-radius: 6px 6px 0 0;
           img{
-            border-radius: 6px 6px 0 0;
             object-fit: cover;
           }
         }
@@ -98,7 +98,7 @@
             margin-bottom:20px;
             a{
               color:$dark;
-              @include fz(16);
+              @include fz(14);
               font-weight: normal;
               line-height: 2;
             }
@@ -165,7 +165,7 @@
                 z-index: 999;
                 a{
                   color:$white;
-                  @include fz(14);
+                  @include fz(12);
                   padding:8px 21px;
                 }
               }
@@ -174,7 +174,7 @@
                 margin-bottom:10px;
                 a{
                   color:$dark;
-                  @include fz(20);
+                  @include fz(16);
                   font-weight: bold;
                   line-height: 1.8;
                 }
@@ -209,8 +209,8 @@
           position: absolute;
           background:url(../assets/img/icon_07.png);
           background-size: cover;
-          width:58px;
-          height:58px;
+          width:45px;
+          height:45px;
           top:0;
           right:0;
           transform: translate(30%,-30%);

@@ -16,6 +16,7 @@
    @include section-title;
   }
   .index-new__article--md{
+    margin-bottom:40px;
     .index-new__article-list{
       display: flex;
       justify-content: flex-start;
@@ -29,10 +30,16 @@
       position: relative;
       .index-new__article-caption{
         width:calc((50% + 25px));
+        border-radius: 6px;
         margin-bottom:20px;
         margin-top:-20px;
-        img{
+        a{
+          border-radius: 6px;
+          overflow: hidden;
           box-shadow:0 4px 7px rgba(0,0,0,0.1);
+        }
+        img{
+          width:100%;
           border-radius: 6px;
         }
       }
@@ -178,6 +185,10 @@
         z-index: 999;
       }
     }
+  }
+  .index-new__more-btn{
+    display: flex;
+    justify-content: center;
   }
   
 }

@@ -44,7 +44,8 @@
   @include responsive(sm){
     img{
       max-width:95px;
-      width:15vw;
+      width:20vw;
+      margin-bottom:-10px;
     }
   }
   

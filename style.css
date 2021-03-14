@@ -400,7 +400,6 @@ html {
 }
 
 .btn {
-  width: 100%;
   height: auto;
   display: flex;
   align-items: center;
@@ -437,6 +436,12 @@ html {
   font-size: 20px;
   font-size: 1.25rem;
   padding: 16.5px 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .btn .btn-large {
+    padding: 15px 45px;
+  }
 }
 
 .btn .btn-none {
@@ -490,6 +495,25 @@ html {
   background: #ffff00;
   border: 4px solid #000;
   position: relative;
+  transition: ease-in-out 0.15s;
+}
+
+.btn .btn-yellow:hover {
+  letter-spacing: 1px;
+  top: 2px;
+  padding-left: 85px;
+  padding-right: 85px;
+}
+
+@media screen and (max-width: 768px) {
+  .btn .btn-yellow:hover {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.btn .btn-yellow:hover::after {
+  top: 0;
 }
 
 .btn .btn-yellow::after {
@@ -503,6 +527,22 @@ html {
   z-index: -1;
   bottom: -6px;
   right: -5px;
+}
+
+.index-new__article-caption {
+  overflow: hidden;
+}
+
+.index-new__article-caption img {
+  transform: scale(1.1);
+  transition: all .4s linear;
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -o-transition: all .4s linear;
+}
+
+.index-new__article-caption img:hover {
+  transform: scale(1);
 }
 
 .header {
@@ -865,9 +905,9 @@ html {
     max-height: 300px;
     margin-bottom: 0;
     margin-top: 0;
+    border-radius: 6px 6px 0 0;
   }
   .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-caption img {
-    border-radius: 6px 6px 0 0;
     object-fit: cover;
   }
   .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text {
@@ -916,8 +956,8 @@ html {
   }
   .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-content a {
     color: #333;
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: normal;
     line-height: 2;
   }
@@ -984,8 +1024,8 @@ html {
   }
   .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-tag a {
     color: #fff;
-    font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 12px;
+    font-size: 0.75rem;
     padding: 8px 21px;
   }
   .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-title {
@@ -994,8 +1034,8 @@ html {
   }
   .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-title a {
     color: #333;
-    font-size: 20px;
-    font-size: 1.25rem;
+    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 1.8;
   }
@@ -1026,12 +1066,18 @@ html {
     position: absolute;
     background: url(../assets/img/icon_07.png);
     background-size: cover;
-    width: 58px;
-    height: 58px;
+    width: 45px;
+    height: 45px;
     top: 0;
     right: 0;
     transform: translate(30%, -30%);
     z-index: 999;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body {
+    overflow: hidden;
   }
 }
 
@@ -1080,8 +1126,13 @@ html {
 @media screen and (max-width: 768px) {
   .index-new .index-new__title img {
     max-width: 95px;
-    width: 15vw;
+    width: 20vw;
+    margin-bottom: -10px;
   }
+}
+
+.index-new .index-new__article--md {
+  margin-bottom: 40px;
 }
 
 .index-new .index-new__article--md .index-new__article-list {
@@ -1100,12 +1151,19 @@ html {
 
 .index-new .index-new__article--md .index-new__article-item:first-child .index-new__article-caption {
   width: calc((50% + 25px));
+  border-radius: 6px;
   margin-bottom: 20px;
   margin-top: -20px;
 }
 
-.index-new .index-new__article--md .index-new__article-item:first-child .index-new__article-caption img {
+.index-new .index-new__article--md .index-new__article-item:first-child .index-new__article-caption a {
+  border-radius: 6px;
+  overflow: hidden;
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+}
+
+.index-new .index-new__article--md .index-new__article-item:first-child .index-new__article-caption img {
+  width: 100%;
   border-radius: 6px;
 }
 
@@ -1277,6 +1335,11 @@ html {
   right: 0;
   transform: translate(30%, -30%);
   z-index: 999;
+}
+
+.index-new .index-new__more-btn {
+  display: flex;
+  justify-content: center;
 }
 
 * {
