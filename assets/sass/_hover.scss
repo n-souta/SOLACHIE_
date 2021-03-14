@@ -3,16 +3,22 @@
 // hover effect
 // ============================================================
 
-.index-new__article-caption{
+.index-new__article-caption,
+.index-popular__article-caption,
+.index-interview__article-caption{
   overflow: hidden;
 }
-.index-new__article-caption img {
+.index-new__article-caption img,
+.index-popular__article-caption img,
+.index-interview__article-caption img {
   transform: scale(1.1);
   transition: all .4s linear;
   -webkit-transition: all .4s linear;
   -moz-transition: all .4s linear;
   -o-transition: all .4s linear;
 }
-.index-new__article-caption img:hover {
+.index-new__article-caption img:hover,
+.index-popular__article-caption img:hover,
+.index-interview__article-caption img:hover {
   transform: scale(1);
 }
