@@ -5,6 +5,6 @@
 
 @include responsive(md){
   .sm{
-    display: none;
+    display: none !important;
   }
 }

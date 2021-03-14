@@ -39,6 +39,7 @@
     @include fz(20);
     padding:16.5px 90px;
     @include responsive(sm){
+      @include fz(18);
       padding:15px 45px;
     }
   }

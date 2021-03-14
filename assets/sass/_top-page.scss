@@ -581,3 +581,127 @@
   }
   
 }
+
+// link-btn__section ---------------------------------------------------
+.link-btn__section{
+  @include section;
+  background:$dark-beige;
+  .link-btn__list{
+    @include box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .link-btn__item{
+      position: relative;
+      &:nth-child(1){
+        margin-right:50px;
+        a{
+          img{
+            width:100%;
+            max-width:320px;
+          }
+          .link_btn--hover{
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            transition: 0.5s;
+          }
+        }
+        a:hover{
+          .link_btn--hover{
+            opacity: 1;
+          }
+        }
+      }
+      
+      &:nth-child(2){
+        a{
+          img{
+            width:100%;
+            max-width:320px;
+          }
+          .link_btn--hover{
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            transition: 0.5s;
+          }
+        }
+        a:hover{
+          .link_btn--hover{
+            opacity: 1;
+          }
+        }
+      }
+    }
+   
+  }
+}
+
+// seminar__section ---------------------------------------------------
+.seminar__section{
+  @include section;
+  .section__content-wrapper{
+    @include wrapper;
+    .section__content-box{
+      @include box;
+      .seminar__title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2{
+          @include fz(28);
+          position: relative;
+          color:$deep-dark;
+          letter-spacing: 3px;
+          position: relative;
+          display: inline-block;
+          &::after{
+            content:"";
+            position:absolute;
+            top:0;
+            left:0;
+            width:95px;
+            height:50px;
+            background:url(../assets/img/icon_08.png) no-repeat;
+            background-size: contain;
+            transform: translate(-30px,-50px);
+        }
+      }
+      }
+      .seminar__image{
+        display: flex;
+        justify-content: center;
+        margin-bottom:50px;
+        transform: translateX(20px);
+        img{
+          width:900px;
+        }
+      }
+      .seminar__time-table-list{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom:35px;
+        padding: 0 100px;
+        .seminar__time-table-item{
+          width: calc((100% - 60px)/4);
+          
+          a{
+            width:100%;
+            font-family: $notoSansCJK;
+            @include fz(22);
+            padding: 20px 0;
+            text-align: center;
+          }
+        }
+      }
+      .seminar__more-btn{
+        display: flex;
+        justify-content: center;
+      }
+    }
+  
+}
+}

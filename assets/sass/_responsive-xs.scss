@@ -7,4 +7,41 @@
   body{
     overflow: hidden;
   }
+
+  .seminar__section{
+    @include section;
+    .section__content-wrapper{
+      @include wrapper;
+      .section__content-box{
+        @include box;
+        .seminar__title{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom:25px;
+          h2{
+            text-align: center;
+            @include fz(20);
+            position: relative;
+            color:$deep-dark;
+            letter-spacing: 3px;
+            position: relative;
+            display: inline-block;
+            &::after{
+              content:"";
+              position:absolute;
+              top:0;
+              left:0;
+              width:63px;
+              height:30px;
+              background:url(../assets/img/icon_08.png) no-repeat;
+              background-size: contain;
+              transform: translate(0,-30px);
+          }
+        }
+        }
+      }
+    
+  }
+  }
 }
