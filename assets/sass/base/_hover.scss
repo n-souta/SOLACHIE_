@@ -8,7 +8,11 @@
 .header__gnav-item,
 .article-title,
 .article-content,
-.article-date
+.article-date,
+.article__title__link,
+.article__content__link,
+.article__date__link
+
   {
     @include hover-op;
   }
@@ -18,12 +22,16 @@
 
 .index-new__article-caption,
 .index-popular__article-caption,
-.index-interview__article-caption{
+.index-interview__article-caption,
+.archive-category__article-caption,
+.archive-other__article-caption{
   overflow: hidden;
 }
 .index-new__article-caption img,
 .index-popular__article-caption img,
-.index-interview__article-caption img {
+.index-interview__article-caption img,
+.archive-category__article-caption img,
+.archive-other__article-caption img{
   transform: scale(1.1);
   transition: all .4s linear;
   -webkit-transition: all .4s linear;
@@ -32,6 +40,8 @@
 }
 .index-new__article-caption img:hover,
 .index-popular__article-caption img:hover,
-.index-interview__article-caption img:hover {
+.index-interview__article-caption img:hover,
+.archive-category__article-caption img:hover,
+.archive-other__article-caption img:hover{
   transform: scale(1);
 }

@@ -10,7 +10,6 @@
   text-align: center;
   padding: 30px 0;
   .footer__inner{
-    /*--------  footer__logo --------*/
     .footer__logo{
       width:30vw;
       max-width:155px;
@@ -21,7 +20,6 @@
         width:100%;
       }
     }
-    /*--------  footer__copyright --------*/
     .footer__copyright{
       @include fz(12);
     }

@@ -1,19 +1,17 @@
-@import "_reset.scss";
-@import "_setting.scss";
-@import "_main.scss";
-@import "_mixin.scss";
-@import "_module.scss";
-@import "_hover.scss";
+@import "../sass/base/reset";
+@import "../sass/base/setting";
+@import "../sass/base/main";
+@import "../sass/base/mixin";
+@import "../sass/base/hover";
 
-@import "_header.scss";
-@import "_footer.scss";
-
-
-@import "_top-page.scss";
-
-@import "_responsive-md.scss";
-@import "_responsive-sm.scss";
-@import "_responsive-xs.scss";
+@import "../sass/parts/header";
+@import "../sass/parts/footer";
+@import "../sass/parts/module";
 
 
+@import "../sass/pages/top-page";
+@import "../sass/pages/archive-page";
 
+@import "../sass/base/responsive-md";
+@import "../sass/base/responsive-sm";
+@import "../sass/base/responsive-xs";
