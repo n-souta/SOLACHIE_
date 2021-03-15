@@ -24,14 +24,16 @@
 .index-popular__article-caption,
 .index-interview__article-caption,
 .archive-category__article-caption,
-.archive-other__article-caption{
+.archive-other__article-caption,
+.single-other__article-caption{
   overflow: hidden;
 }
 .index-new__article-caption img,
 .index-popular__article-caption img,
 .index-interview__article-caption img,
 .archive-category__article-caption img,
-.archive-other__article-caption img{
+.archive-other__article-caption img,
+.single-other__article-caption img{
   transform: scale(1.1);
   transition: all .4s linear;
   -webkit-transition: all .4s linear;
@@ -42,6 +44,7 @@
 .index-popular__article-caption img:hover,
 .index-interview__article-caption img:hover,
 .archive-category__article-caption img:hover,
-.archive-other__article-caption img:hover{
+.archive-other__article-caption img:hover,
+.single-other__article-caption img:hover{
   transform: scale(1);
 }
