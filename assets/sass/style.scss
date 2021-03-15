@@ -16,37 +16,4 @@
 @import "_responsive-xs.scss";
 
 
-*{
-  box-sizing: border-box;
-}
-
-body{
-  font-size: 1em;
-  line-height: 1.5;
-  display: flex;
-  flex-direction: column;
-  min-height:100vh;
-  position: relative;
-  background:$beige;
-}
-
-img{
-  max-width: 100%;
-  height:auto;
-  backface-visibility: hidden;
-  vertical-align: top;
-}
-
-::before,::after{
-  backface-visibility: hidden;
-}
-
-a{
-  text-decoration: none;
-  display: block;
-}
-
-ul{
-  list-style: none;
-}
 

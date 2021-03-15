@@ -3,6 +3,19 @@
 // hover effect
 // ============================================================
 
+
+.header__logo,
+.header__gnav-item,
+.article-title,
+.article-content,
+.article-date
+  {
+    @include hover-op;
+  }
+  
+
+
+
 .index-new__article-caption,
 .index-popular__article-caption,
 .index-interview__article-caption{

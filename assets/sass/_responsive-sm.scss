@@ -719,6 +719,7 @@
   // seminar__section ---------------------------------------------------
   .seminar__section{
     @include section;
+    padding-top:100px !important;
     .section__content-wrapper{
       @include wrapper;
       .section__content-box{
@@ -789,107 +790,107 @@
   }
 
   // presents__section ---------------------------------------------------
-.presents__section{
-  @include section;
-  background:$white;
-  .section__content-wrapper{
-    @include wrapper;
-    .section__content-box{
-      @include box;
-      .section-title__wrap{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom:40px;
-        .section-title__text{
-          @include fz(28);
+  .presents__section{
+    @include section;
+    background:$white;
+    .section__content-wrapper{
+      @include wrapper;
+      .section__content-box{
+        @include box;
+        .section-title__wrap{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom:40px;
+          .section-title__text{
+            @include fz(28);
+          }
         }
-      }
-      .presents__list{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        .presents__item{
-          width:100%;
-          padding-left: 32px;
-          padding-right:32px;
-          padding-bottom:32px;
-          border:2px solid $black;
-          border-radius: 6px;
-          margin-bottom:20px;
+        .presents__list{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          .presents__item{
+            width:100%;
+            padding-left: 32px;
+            padding-right:32px;
+            padding-bottom:32px;
+            border:2px solid $black;
+            border-radius: 6px;
+            margin-bottom:20px;
+          }
         }
       }
     }
-  }
- 
   
-}
+    
+  }
 
-// contact__section ---------------------------------------------------
-.contact__section{
-  @include section;
-  .section__content-wrapper{
-    @include wrapper;
-    .section__content-box{
-      @include box;
-      max-width:768px;
-      position: relative;
-      .section-title__wrap{
-        margin-bottom:20px;
-        h2{
-          text-align: center;
-        }
-      }
-      .section__backimg-list{
-        display: flex;
-        justify-content: center;
-        margin-bottom:20px;
-        li:nth-child(1){
-          position: static;
-          top:30%;
-          left:0;
-          margin-right:50px;
-          img{
-            width:150px;
-            
-          }
-        }
-        li:nth-child(2){
-          position: static;
-          top:30%;
-          right:0;
-          img{
-            width:150px;
-            
-          }
-        }
-      }
-      .contact__text-box{
+  // contact__section ---------------------------------------------------
+  .contact__section{
+    @include section;
+    .section__content-wrapper{
+      @include wrapper;
+      .section__content-box{
+        @include box;
+        max-width:768px;
         position: relative;
-        margin-bottom:40px;
-        
-        p{
-          @include fz(14);
-          text-align: center;
-          color:$dark;
-          line-height: 2;
+        .section-title__wrap{
+          margin-bottom:20px;
+          h2{
+            text-align: center;
+          }
         }
-      }
-      .btn-contact{
-        display: flex;
-        justify-content: center;
-        .btn{
-          a{
-            padding-left: 15vw;
-            padding-right: 15vw;
+        .section__backimg-list{
+          display: flex;
+          justify-content: center;
+          margin-bottom:20px;
+          li:nth-child(1){
+            position: static;
+            top:30%;
+            left:0;
+            margin-right:50px;
+            img{
+              width:150px;
+              
+            }
+          }
+          li:nth-child(2){
+            position: static;
+            top:30%;
+            right:0;
+            img{
+              width:150px;
+              
+            }
+          }
+        }
+        .contact__text-box{
+          position: relative;
+          margin-bottom:40px;
+          
+          p{
+            @include fz(14);
+            text-align: center;
+            color:$dark;
+            line-height: 2;
+          }
+        }
+        .btn-contact{
+          display: flex;
+          justify-content: center;
+          .btn{
+            a{
+              padding-left: 15vw;
+              padding-right: 15vw;
+            }
           }
         }
       }
     }
-  }
- 
   
-}
+    
+  }
 
   
 }
