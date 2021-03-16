@@ -16,6 +16,7 @@
     position: relative;
     background:$beige;
     padding-top:225px;
+    
     @include responsive(sm){
       padding-top:95px;
     }

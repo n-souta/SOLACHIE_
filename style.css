@@ -2036,10 +2036,12 @@ ul {
   justify-content: center;
   margin-bottom: 50px;
   transform: translateX(20px);
+  height: auto;
 }
 
 .seminar__section .section__content-wrapper .section__content-box .seminar__image img {
   width: 900px;
+  align-self: flex-start;
 }
 
 .seminar__section .section__content-wrapper .section__content-box .seminar__time-table-list {
@@ -3569,8 +3571,6 @@ ul {
     position: relative;
   }
   .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-tag {
-    background: #29abe2;
-    border-radius: 100vh;
     display: inline-block;
     margin-bottom: 20px;
     position: absolute;
@@ -3580,10 +3580,17 @@ ul {
     z-index: 999;
   }
   .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-tag a {
+    background: #29abe2;
+    border-radius: 100vh;
     color: #fff;
     font-size: 14px;
     font-size: 0.875rem;
     padding: 5px 15px;
+    transition: ease-in-out 0.5s;
+  }
+  .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-tag a:hover {
+    background: #ffff00;
+    color: #000;
   }
   .index-new .index-new__article--sm .index-new__article-item--sm-first .index-new__article-text .article-title {
     position: relative;
@@ -3656,8 +3663,6 @@ ul {
     position: relative;
   }
   .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-tag {
-    background: #29abe2;
-    border-radius: 100vh;
     display: inline-block;
     margin-bottom: 20px;
     position: absolute;
@@ -3667,10 +3672,17 @@ ul {
     z-index: 999;
   }
   .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-tag a {
+    background: #29abe2;
+    border-radius: 100vh;
     color: #fff;
-    font-size: 12px;
-    font-size: 0.75rem;
+    font-size: 14px;
+    font-size: 0.875rem;
     padding: 5px 15px;
+    transition: ease-in-out 0.5s;
+  }
+  .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-tag a:hover {
+    background: #ffff00;
+    color: #000;
   }
   .index-new .index-new__article--sm .swiper-container .swiper-wrapper .index-new__article-item--sm .index-new__article-text .article-title {
     position: relative;
@@ -3879,14 +3891,19 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(30px, -50%);
+    transform: translate(25px, -50%);
     z-index: 999;
   }
   .index-popular .index-popular__content-wrapper .index-popular__content-box .index-popular__article .index-popular__article-item:first-child .index-popular__article-text .article-tag a {
     color: #fff;
-    font-size: 12px;
-    font-size: 0.75rem;
+    font-size: 14px;
+    font-size: 0.875rem;
     padding: 5px 15px;
+    transition: ease-in-out 0.5s;
+  }
+  .index-popular .index-popular__content-wrapper .index-popular__content-box .index-popular__article .index-popular__article-item:first-child .index-popular__article-text .article-tag a:hover {
+    background: #ffff00;
+    color: #000;
   }
   .index-popular .index-popular__content-wrapper .index-popular__content-box .index-popular__article .index-popular__article-item:first-child .index-popular__article-text .article-title {
     position: relative;
@@ -3961,8 +3978,6 @@ ul {
     width: 70%;
   }
   .index-popular .index-popular__content-wrapper .index-popular__content-box .index-popular__article .index-popular__article-item:not(:first-child) .index-popular__article-text .article-tag {
-    background: #29abe2;
-    border-radius: 100vh;
     display: inline-block;
     position: static;
     top: 0;
@@ -3972,10 +3987,17 @@ ul {
     margin-bottom: 8px;
   }
   .index-popular .index-popular__content-wrapper .index-popular__content-box .index-popular__article .index-popular__article-item:not(:first-child) .index-popular__article-text .article-tag a {
+    background: #29abe2;
+    border-radius: 100vh;
     color: #fff;
-    font-size: 12px;
-    font-size: 0.75rem;
+    font-size: 14px;
+    font-size: 0.875rem;
     padding: 5px 15px;
+    transition: ease-in-out 0.5s;
+  }
+  .index-popular .index-popular__content-wrapper .index-popular__content-box .index-popular__article .index-popular__article-item:not(:first-child) .index-popular__article-text .article-tag a:hover {
+    background: #ffff00;
+    color: #000;
   }
   .index-popular .index-popular__content-wrapper .index-popular__content-box .index-popular__article .index-popular__article-item:not(:first-child) .index-popular__article-text .article-title {
     position: relative;
@@ -4106,14 +4128,19 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(30px, -50%);
+    transform: translate(25px, -50%);
     z-index: 999;
   }
   .index-interview .index-interview__content-wrapper .index-interview__content-box .index-interview__article .index-interview__article-item:first-child .index-interview__article-text .article-tag a {
     color: #fff;
-    font-size: 12px;
-    font-size: 0.75rem;
+    font-size: 14px;
+    font-size: 0.875rem;
     padding: 5px 15px;
+    transition: ease-in-out 0.5s;
+  }
+  .index-interview .index-interview__content-wrapper .index-interview__content-box .index-interview__article .index-interview__article-item:first-child .index-interview__article-text .article-tag a:hover {
+    background: #ffff00;
+    color: #000;
   }
   .index-interview .index-interview__content-wrapper .index-interview__content-box .index-interview__article .index-interview__article-item:first-child .index-interview__article-text .article-title {
     position: relative;
@@ -4188,8 +4215,6 @@ ul {
     width: 70%;
   }
   .index-interview .index-interview__content-wrapper .index-interview__content-box .index-interview__article .index-interview__article-item:not(:first-child) .index-interview__article-text .article-tag {
-    background: #29abe2;
-    border-radius: 100vh;
     display: inline-block;
     position: static;
     top: 0;
@@ -4199,10 +4224,17 @@ ul {
     margin-bottom: 8px;
   }
   .index-interview .index-interview__content-wrapper .index-interview__content-box .index-interview__article .index-interview__article-item:not(:first-child) .index-interview__article-text .article-tag a {
+    background: #29abe2;
+    border-radius: 100vh;
     color: #fff;
-    font-size: 12px;
-    font-size: 0.75rem;
+    font-size: 14px;
+    font-size: 0.875rem;
     padding: 5px 15px;
+    transition: ease-in-out 0.5s;
+  }
+  .index-interview .index-interview__content-wrapper .index-interview__content-box .index-interview__article .index-interview__article-item:not(:first-child) .index-interview__article-text .article-tag a:hover {
+    background: #ffff00;
+    color: #000;
   }
   .index-interview .index-interview__content-wrapper .index-interview__content-box .index-interview__article .index-interview__article-item:not(:first-child) .index-interview__article-text .article-title {
     position: relative;
@@ -4322,10 +4354,12 @@ ul {
     margin-bottom: 50px;
     transform: translateX(0);
     margin-bottom: 20px;
+    height: auto;
   }
   .seminar__section .section__content-wrapper .section__content-box .seminar__image img {
     width: 100%;
     max-width: 400px;
+    align-self: flex-start;
   }
   .seminar__section .section__content-wrapper .section__content-box .seminar__time-table-list {
     display: flex;
@@ -4640,13 +4674,13 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(30px, -50%);
+    transform: translate(25px, -50%);
     z-index: 999;
   }
   .archive-category .archive-category__content-wrapper .archive-category__content-box .archive-category__article .archive-category__article-item .archive-category__article-text .article-tag a {
     color: #fff;
-    font-size: 12px;
-    font-size: 0.75rem;
+    font-size: 14px;
+    font-size: 0.875rem;
     padding: 5px 15px;
   }
   .archive-category .archive-category__content-wrapper .archive-category__content-box .archive-category__article .archive-category__article-item .archive-category__article-text .article-tag a:hover {
@@ -5854,5 +5888,14 @@ ul {
     font-size: 20px;
     font-size: 1.25rem;
   }
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+}
+
+.menu a {
+  margin-right: 15px;
 }
 /*# sourceMappingURL=style.css.map */

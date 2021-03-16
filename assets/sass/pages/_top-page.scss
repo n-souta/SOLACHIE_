@@ -781,8 +781,10 @@
         justify-content: center;
         margin-bottom:50px;
         transform: translateX(20px);
+        height: auto;
         img{
           width:900px;
+          align-self: flex-start; 
         }
       }
       .seminar__time-table-list{

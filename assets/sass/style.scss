@@ -16,3 +16,11 @@
 @import "../sass/base/responsive-md";
 @import "../sass/base/responsive-sm";
 @import "../sass/base/responsive-xs";
+
+.menu{
+  display: flex;
+  position:absolute;
+  a{
+    margin-right:15px;
+  }
+}
