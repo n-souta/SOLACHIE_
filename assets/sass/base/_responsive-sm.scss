@@ -80,7 +80,7 @@
               background:$blue;
               border-radius: 100vh;
               color:$white;
-              @include fz(14);
+              @include fz(16);
               padding:5px 15px;
               transition: ease-in-out 0.5s;
             &:hover{
@@ -103,7 +103,7 @@
             margin-bottom:20px;
             a{
               color:$dark;
-              @include fz(14);
+              @include fz(16);
               font-weight: normal;
               line-height: 2;
             }
@@ -112,7 +112,7 @@
             display: flex;
             justify-content: flex-end;
             a{
-              @include fz(14);
+              @include fz(16);
               color:$gray;
               .fa-clock{
                 margin-right:9px;
@@ -169,7 +169,7 @@
                   background:$blue;
                   border-radius: 100vh;
                   color:$white;
-                  @include fz(14);
+                  @include fz(16);
                   padding:5px 15px;
                   transition: ease-in-out 0.5s;
                   &:hover{
@@ -192,7 +192,7 @@
                 margin-bottom:20px;
                 a{
                   color:$dark;
-                  @include fz(14);
+                  @include fz(16);
                   font-weight: normal;
                   line-height: 2;
                 }
@@ -201,7 +201,7 @@
                 display: flex;
                 justify-content: flex-end;
                 a{
-                  @include fz(14);
+                  @include fz(16);
                   color:$gray;
                   .fa-clock{
                     margin-right:9px;
@@ -355,7 +355,7 @@
                 z-index: 999;
                 a{
                   color:$white;
-                  @include fz(14);
+                  @include fz(16);
                   padding:5px 15px;
                   transition: ease-in-out 0.5s;
                   &:hover{
@@ -378,7 +378,7 @@
                 margin-bottom:20px;
                 a{
                   color:$dark;
-                  @include fz(14);
+                  @include fz(16);
                   font-weight: normal;
                   line-height: 2;
                 }
@@ -387,7 +387,7 @@
                 display: flex;
                 justify-content: flex-end;
                 a{
-                  @include fz(14);
+                  @include fz(16);
                   color:$gray;
                   .fa-clock{
                     margin-right:9px;
@@ -447,7 +447,7 @@
                   background:$blue;
                   border-radius: 100vh;
                   color:$white;
-                  @include fz(14);
+                  @include fz(16);
                   padding:5px 15px;
                   transition: ease-in-out 0.5s;
                   &:hover{
@@ -471,7 +471,7 @@
                 margin-bottom:40px;
                 a{
                   color:$dark;
-                  @include fz(14);
+                  @include fz(16);
                   font-weight: normal;
                   line-height: 2;
                 }
@@ -480,7 +480,7 @@
                 display: flex;
                 justify-content: flex-end;
                 a{
-                  @include fz(14);
+                  @include fz(16);
                   color:$gray;
                   .fa-clock{
                     margin-right:9px;
@@ -574,7 +574,7 @@
                 z-index: 999;
                 a{
                   color:$white;
-                  @include fz(14);
+                  @include fz(16);
                   padding:5px 15px;
                   transition: ease-in-out 0.5s;
                   &:hover{
@@ -597,7 +597,7 @@
                 margin-bottom:20px;
                 a{
                   color:$dark;
-                  @include fz(14);
+                  @include fz(16);
                   font-weight: normal;
                   line-height: 2;
                 }
@@ -606,7 +606,7 @@
                 display: flex;
                 justify-content: flex-end;
                 a{
-                  @include fz(14);
+                  @include fz(16);
                   color:$gray;
                   .fa-clock{
                     margin-right:9px;
@@ -666,7 +666,7 @@
                   background:$blue;
                   border-radius: 100vh;
                   color:$white;
-                  @include fz(14);
+                  @include fz(16);
                   padding:5px 15px;
                   transition: ease-in-out 0.5s;
                   &:hover{
@@ -690,7 +690,7 @@
                 margin-bottom:40px;
                 a{
                   color:$dark;
-                  @include fz(14);
+                  @include fz(16);
                   font-weight: normal;
                   line-height: 2;
                 }
@@ -699,7 +699,7 @@
                 display: flex;
                 justify-content: flex-end;
                 a{
-                  @include fz(14);
+                  @include fz(16);
                   color:$gray;
                   .fa-clock{
                     margin-right:9px;
@@ -902,7 +902,7 @@
           margin-bottom:40px;
           
           p{
-            @include fz(14);
+            @include fz(16);
             text-align: center;
             color:$dark;
             line-height: 2;
@@ -1066,7 +1066,7 @@
                 z-index: 999;
                 a{
                   color:$white;
-                  @include fz(14);
+                  @include fz(16);
                   padding:5px 15px;
                   &:hover{
                     background:$yellow;
@@ -1088,7 +1088,7 @@
                 margin-bottom:20px;
                 a{
                   color:$dark;
-                  @include fz(14);
+                  @include fz(16);
                   font-weight: normal;
                   line-height: 2;
                 }
@@ -1097,7 +1097,7 @@
                 display: flex;
                 justify-content: flex-end;
                 a{
-                  @include fz(14);
+                  @include fz(16);
                   color:$gray;
                   .fa-clock{
                     margin-right:9px;
@@ -1236,7 +1236,7 @@
               display: flex;
               justify-content: flex-end;
               a{
-                @include fz(14);
+                @include fz(16);
                 color:$gray;
                 .fa-clock{
                   margin-right:9px;
@@ -1342,7 +1342,7 @@
                 i{
                   margin-right:8px;
                 }
-                @include fz(14);
+                @include fz(16);
                 color:$gray;
               }
             }
@@ -1412,7 +1412,7 @@
                   line-height:30px;
                 }
                 p{
-                  @include fz(14);
+                  @include fz(16);
                   margin-left:8px;
                   color:$white;
                 }
@@ -1653,7 +1653,7 @@
             display: flex;
             justify-content: flex-end;
             a{
-              @include fz(14);
+              @include fz(16);
               color:$gray;
               .fa-clock{
                 margin-right:9px;

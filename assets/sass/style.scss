@@ -20,7 +20,12 @@
 .menu{
   display: flex;
   position:absolute;
+  bottom:-30px;
   a{
     margin-right:15px;
   }
+}
+
+.active{
+  position: fixed;
 }

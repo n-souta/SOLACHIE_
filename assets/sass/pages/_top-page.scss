@@ -703,18 +703,21 @@
           img{
             width:100%;
             max-width:320px;
+            transition: 0.5s;
           }
           .link_btn--hover{
             position: absolute;
             left: 0;
             top: 0;
             opacity: 0;
-            transition: 0.5s;
           }
         }
         a:hover{
           .link_btn--hover{
             opacity: 1;
+          }
+          .link_btn{
+            opacity: 0;
           }
         }
       }
@@ -921,7 +924,7 @@
         }
         .presents__text-box{
           p{
-            @include fz(14);
+            @include fz(16);
             line-height: 2;
             color:$dark;
             

@@ -19,7 +19,7 @@
     .header__logo{
       position: relative;
       padding-top:33px;
-      padding-bottom:30px;
+      padding-bottom:37px;
       width:250px;
       margin:0 auto;
       img{
@@ -57,6 +57,8 @@
     }
     /*--------  header__sidebar  --------*/
     .header__sidebar{
+
+      
       a,
       a:visited,
       a:hover,
@@ -68,6 +70,11 @@
       top: 33px;
       right: 0;
       z-index: 9999;
+      input[type=checkbox]:checked{
+        body{
+          display: none;
+        }
+      }
       
       .checkbox-toggle {
         position: absolute;
@@ -185,8 +192,8 @@
       justify-content: center;
         
         > div {
-          width: 200vw;
-          height: 200vw;
+          width: 500vw;
+          height: 500vw;
           color: $main-color;
           background: $content-bg-color;
           border-radius: 50%;
@@ -259,6 +266,8 @@
         @include fz(24);
       }
     }
+    
+   
     /*--------  header__gnav  --------*/
     .header__gnav{
       .header__gnav-list{

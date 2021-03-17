@@ -20,3 +20,15 @@ var mySwiper = new Swiper('.swiper-container', {
 	slidesPerView:1.4,
 	spaceBetween: 30
 });
+
+
+
+$(function(){
+  $('.checkbox-toggle').click(function() {
+      if ($(this).prop('checked')) {
+          $('html').addClass('fixed');
+        } else {
+          $('html').removeClass('fixed');
+      }
+  });
+});
