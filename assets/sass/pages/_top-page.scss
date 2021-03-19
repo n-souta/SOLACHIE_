@@ -785,9 +785,34 @@
         margin-bottom:50px;
         transform: translateX(20px);
         height: auto;
-        img{
+        .seminar__frame{
           width:900px;
           align-self: flex-start; 
+          position: relative;
+        }
+        .inpic-list{
+          position: absolute;
+          top:57%;
+          margin:0 auto;
+          margin-left:-55px;
+          display: flex;
+          justify-content: space-between;
+          .inpic-item{
+            width:8.5vw;
+            max-width: 88px;
+            height:8.5vw;
+            max-height: 88px;
+            overflow: hidden;
+            border-radius: 100vh;
+            background:#f2f0eb;
+            &:not(:last-child){
+              margin-right:16px;
+            }
+            img{
+              width:100%;
+              object-fit:cover;
+            }
+          }
         }
       }
       .seminar__time-table-list{
