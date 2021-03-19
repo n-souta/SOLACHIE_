@@ -2954,8 +2954,8 @@ ul {
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__title .single-page__heading {
-  font-size: 32px;
-  font-size: 2rem;
+  font-size: 28.8px;
+  font-size: 1.8rem;
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__info {
@@ -3003,9 +3003,10 @@ ul {
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__intro .single-page__intro-text {
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 16px;
+  font-size: 1rem;
   color: #333;
+  line-height: 1.8;
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__sns-list--01 {
@@ -3080,18 +3081,18 @@ ul {
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-title {
   display: flex;
   align-items: center;
-  margin-bottom: 36px;
+  margin-bottom: 25px;
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-title .fa-list-ul {
-  font-size: 26px;
-  font-size: 1.625rem;
+  font-size: 19.2px;
+  font-size: 1.2rem;
   margin-right: 18px;
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-title .single-page__index-heading {
-  font-size: 26px;
-  font-size: 1.625rem;
+  font-size: 19.2px;
+  font-size: 1.2rem;
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-list .single-page__index-item {
@@ -3100,18 +3101,18 @@ ul {
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-list .single-page__index-item:not(:last-child) {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-list .single-page__index-item .fa-caret-right {
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 15px;
+  font-size: 0.9375rem;
   margin-right: 14px;
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-list .single-page__index-item .single-page__index-text {
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__caption--02 {
@@ -3133,19 +3134,19 @@ ul {
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--01 .single-page__text-area--01-heading {
-  font-size: 26px;
-  font-size: 1.625rem;
+  font-size: 24px;
+  font-size: 1.5rem;
   color: #001111;
   padding-bottom: 16px;
   border-bottom: 3px solid #29abe2;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--01 .single-page__text-area--01-text {
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 16px;
+  font-size: 1rem;
   color: #333;
-  line-height: 2;
+  line-height: 1.8;
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--02 {
@@ -3153,19 +3154,19 @@ ul {
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--02 .single-page__text-area--02-heading {
-  font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 19.2px;
+  font-size: 1.2rem;
   color: #001111;
   padding-left: 14px;
   border-left: 3px solid #29abe2;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--02 .single-page__text-area--02-text {
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 16px;
+  font-size: 1rem;
   color: #333;
-  line-height: 2;
+  line-height: 1.8;
 }
 
 .single-page__wrap .section__content-wrapper .section__content-box .single-page__sns-list--02 .sns-list--02-list {
@@ -3356,6 +3357,11 @@ ul {
     width: 20vw;
     margin-bottom: -10px;
   }
+}
+
+.single-other .single-other__content-box .single-other__title h2 {
+  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .single-other .single-other__content-box .single-other__article .single-other__article-list {
@@ -5058,8 +5064,8 @@ ul {
     margin-bottom: 30px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__title .single-page__heading {
-    font-size: 28px;
-    font-size: 1.75rem;
+    font-size: 24px;
+    font-size: 1.5rem;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__info {
     margin-bottom: 20px;
@@ -5078,8 +5084,8 @@ ul {
     opacity: 0.7;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__info .single-page__info-list .single-page__info-item .single-page__info-link {
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 14px;
+    font-size: 0.875rem;
     color: #888;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__info .single-page__info-list .single-page__info-item .single-page__info-link i {
@@ -5101,8 +5107,8 @@ ul {
     margin-bottom: 50px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__intro .single-page__intro-text {
-    font-size: 18px;
-    font-size: 1.125rem;
+    font-size: 16px;
+    font-size: 1rem;
     color: #333;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__sns-list--01 {
@@ -5179,8 +5185,8 @@ ul {
     margin-right: 18px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-title .single-page__index-heading {
-    font-size: 26px;
-    font-size: 1.625rem;
+    font-size: 22px;
+    font-size: 1.375rem;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-list .single-page__index-item {
     display: flex;
@@ -5190,13 +5196,13 @@ ul {
     margin-bottom: 12px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-list .single-page__index-item .fa-caret-right {
-    font-size: 18px;
-    font-size: 1.125rem;
+    font-size: 16px;
+    font-size: 1rem;
     margin-right: 14px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-list .single-page__index-item .single-page__index-text {
-    font-size: 18px;
-    font-size: 1.125rem;
+    font-size: 16px;
+    font-size: 1rem;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__caption--02 {
     width: 100%;
@@ -5214,35 +5220,35 @@ ul {
     margin-bottom: 30px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--01 .single-page__text-area--01-heading {
-    font-size: 26px;
-    font-size: 1.625rem;
+    font-size: 24px;
+    font-size: 1.5rem;
     color: #001111;
     padding-bottom: 16px;
     border-bottom: 3px solid #29abe2;
     margin-bottom: 15px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--01 .single-page__text-area--01-text {
-    font-size: 18px;
-    font-size: 1.125rem;
+    font-size: 16px;
+    font-size: 1rem;
     color: #333;
-    line-height: 2;
+    line-height: 1.8;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--02 {
     margin-bottom: 30px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--02 .single-page__text-area--02-heading {
-    font-size: 24px;
-    font-size: 1.5rem;
+    font-size: 19.2px;
+    font-size: 1.2rem;
     color: #001111;
     padding-left: 14px;
     border-left: 3px solid #29abe2;
     margin-bottom: 15px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--02 .single-page__text-area--02-text {
-    font-size: 18px;
-    font-size: 1.125rem;
+    font-size: 16px;
+    font-size: 1rem;
     color: #333;
-    line-height: 2;
+    line-height: 1.8;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__sns-list--02 .sns-list--02-list {
     display: flex;
@@ -5354,6 +5360,10 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
+  .single-other .single-other__content-box .single-other__title h2 {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
   .single-other .single-other__content-box .single-other__article .single-other__article-list {
     display: flex;
     flex-wrap: wrap;
@@ -5814,8 +5824,8 @@ ul {
     margin-bottom: 30px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__title .single-page__heading {
-    font-size: 28px;
-    font-size: 1.75rem;
+    font-size: 24px;
+    font-size: 1.5rem;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__info {
     margin-bottom: 20px;
@@ -5857,8 +5867,8 @@ ul {
     margin-bottom: 50px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__intro .single-page__intro-text {
-    font-size: 18px;
-    font-size: 1.125rem;
+    font-size: 16px;
+    font-size: 1rem;
     color: #333;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__sns-list--01 {
@@ -5925,13 +5935,13 @@ ul {
     margin-bottom: 15px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-title .fa-list-ul {
-    font-size: 26px;
-    font-size: 1.625rem;
+    font-size: 20px;
+    font-size: 1.25rem;
     margin-right: 18px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-title .single-page__index-heading {
-    font-size: 26px;
-    font-size: 1.625rem;
+    font-size: 20px;
+    font-size: 1.25rem;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-list .single-page__index-item {
     display: flex;
@@ -5941,13 +5951,13 @@ ul {
     margin-bottom: 12px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-list .single-page__index-item .fa-caret-right {
-    font-size: 18px;
-    font-size: 1.125rem;
+    font-size: 16px;
+    font-size: 1rem;
     margin-right: 14px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__index .single-page__index-list .single-page__index-item .single-page__index-text {
-    font-size: 18px;
-    font-size: 1.125rem;
+    font-size: 16px;
+    font-size: 1rem;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__caption--02 {
     width: 100%;
@@ -5965,16 +5975,16 @@ ul {
     margin-bottom: 30px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--01 .single-page__text-area--01-heading {
-    font-size: 26px;
-    font-size: 1.625rem;
+    font-size: 21px;
+    font-size: 1.3125rem;
     color: #001111;
     padding-bottom: 16px;
     border-bottom: 3px solid #29abe2;
     margin-bottom: 15px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--01 .single-page__text-area--01-text {
-    font-size: 18px;
-    font-size: 1.125rem;
+    font-size: 16px;
+    font-size: 1rem;
     color: #333;
     line-height: 2;
   }
@@ -5982,16 +5992,16 @@ ul {
     margin-bottom: 30px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--02 .single-page__text-area--02-heading {
-    font-size: 24px;
-    font-size: 1.5rem;
+    font-size: 18px;
+    font-size: 1.125rem;
     color: #001111;
     padding-left: 14px;
     border-left: 3px solid #29abe2;
     margin-bottom: 15px;
   }
   .single-page__wrap .section__content-wrapper .section__content-box .single-page__text-area--02 .single-page__text-area--02-text {
-    font-size: 18px;
-    font-size: 1.125rem;
+    font-size: 16px;
+    font-size: 1rem;
     color: #333;
     line-height: 2;
   }
@@ -6017,6 +6027,37 @@ ul {
     color: #fff;
     font-size: 20px;
     font-size: 1.25rem;
+  }
+  .single-other .single-other__content-box .single-other__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .single-other .single-other__content-box .single-other__title img {
+    z-index: 10;
+  }
+  .single-other .single-other__content-box .single-other__title h2 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    position: relative;
+    padding-left: 17px;
+    color: #001111;
+    letter-spacing: 3px;
+  }
+}
+
+@media screen and (max-width: 575px) and (max-width: 768px) {
+  .single-other .single-other__content-box .single-other__title img {
+    max-width: 95px;
+    width: 20vw;
+    margin-bottom: -10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .single-other .single-other__content-box .single-other__title h2 {
+    font-size: 24px;
+    font-size: 1.5rem;
   }
 }
 

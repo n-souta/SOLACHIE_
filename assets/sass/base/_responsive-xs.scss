@@ -256,7 +256,7 @@
         .single-page__title{
           margin-bottom:30px;
           .single-page__heading{
-            @include fz(28);
+            @include fz(24);
           }
         }
         .single-page__info{
@@ -298,7 +298,7 @@
         .single-page__intro{
           margin-bottom:50px;
           .single-page__intro-text{
-            @include fz(18);
+            @include fz(16);
             color:$dark;
           }
         }
@@ -362,11 +362,11 @@
             align-items: center;
             margin-bottom:15px;
             .fa-list-ul{
-              @include fz(26);
+              @include fz(20);
               margin-right:18px;
             }
             .single-page__index-heading{
-              @include fz(26);
+              @include fz(20);
             }
           }
           .single-page__index-list{
@@ -378,11 +378,11 @@
       
               }
               .fa-caret-right{
-                @include fz(18);
+                @include fz(16);
                 margin-right:14px;
               }
               .single-page__index-text{
-                @include fz(18);
+                @include fz(16);
       
               }
             }
@@ -403,14 +403,14 @@
         .single-page__text-area--01{
           margin-bottom:30px;
           .single-page__text-area--01-heading{
-            @include fz(26);
+            @include fz(21);
             color:$deep-dark;
             padding-bottom:16px;
             border-bottom:3px solid #29abe2;
             margin-bottom:15px;
           }
           .single-page__text-area--01-text{
-            @include fz(18);
+            @include fz(16);
             color:$dark;
             line-height:2;
           }
@@ -418,14 +418,14 @@
         .single-page__text-area--02{
           margin-bottom:30px;
           .single-page__text-area--02-heading{
-            @include fz(24);
+            @include fz(18);
             color:$deep-dark;
             padding-left: 14px;
             border-left:3px solid #29abe2;
             margin-bottom:15px;
           }
           .single-page__text-area--02-text{
-            @include fz(18);
+            @include fz(16);
             color:$dark;
             line-height:2;
           }
@@ -459,5 +459,16 @@
 
       }
     }
+  }
+  .single-other{
+    .single-other__content-box{
+      .single-other__title{
+       @include section-title;
+       h2{
+         @include fz(24);
+       }
+      }
+    }
+    
   }
 }

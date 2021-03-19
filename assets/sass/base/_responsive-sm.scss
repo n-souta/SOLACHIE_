@@ -1361,7 +1361,7 @@
         .single-page__title{
           margin-bottom:30px;
           .single-page__heading{
-            @include fz(28);
+            @include fz(24);
           }
         }
         .single-page__info{
@@ -1382,7 +1382,7 @@
                 i{
                   margin-right:8px;
                 }
-                @include fz(16);
+                @include fz(14);
                 color:$gray;
               }
             }
@@ -1403,7 +1403,7 @@
         .single-page__intro{
           margin-bottom:50px;
           .single-page__intro-text{
-            @include fz(18);
+            @include fz(16);
             color:$dark;
           }
         }
@@ -1476,7 +1476,7 @@
               margin-right:18px;
             }
             .single-page__index-heading{
-              @include fz(26);
+              @include fz(22);
             }
           }
           .single-page__index-list{
@@ -1488,11 +1488,11 @@
       
               }
               .fa-caret-right{
-                @include fz(18);
+                @include fz(16);
                 margin-right:14px;
               }
               .single-page__index-text{
-                @include fz(18);
+                @include fz(16);
       
               }
             }
@@ -1513,31 +1513,31 @@
         .single-page__text-area--01{
           margin-bottom:30px;
           .single-page__text-area--01-heading{
-            @include fz(26);
+            @include fz(24);
             color:$deep-dark;
             padding-bottom:16px;
             border-bottom:3px solid #29abe2;
             margin-bottom:15px;
           }
           .single-page__text-area--01-text{
-            @include fz(18);
+            @include fz(16);
             color:$dark;
-            line-height:2;
+            line-height:1.8;
           }
         }
         .single-page__text-area--02{
           margin-bottom:30px;
           .single-page__text-area--02-heading{
-            @include fz(24);
+            @include fz(19.2);
             color:$deep-dark;
             padding-left: 14px;
             border-left:3px solid #29abe2;
             margin-bottom:15px;
           }
           .single-page__text-area--02-text{
-            @include fz(18);
+            @include fz(16);
             color:$dark;
-            line-height:2;
+            line-height:1.8;
           }
         }
         .single-page__sns-list--02{
@@ -1622,6 +1622,9 @@
     }
     .single-other__title{
      @include section-title;
+     h2{
+      @include fz(24);
+    }
     }
     .single-other__article{
       .single-other__article-list{
