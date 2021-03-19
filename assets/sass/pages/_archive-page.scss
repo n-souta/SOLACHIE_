@@ -224,7 +224,7 @@
   
 }
 
-// archive-other ---------------------------------------------------
+// index-popular ---------------------------------------------------
 .archive-other{
   @include section;
   background:$white;
@@ -239,28 +239,28 @@
       }
     }
     .archive-other__row:nth-child(1){
-      img{
+      .title-img{
         width:132px;
         margin-left:-20px;
         margin-bottom:-15px;
       }
     }
     .archive-other__row:nth-child(2){
-      img{
+      .title-img{
         width:92px;
         margin-left:-20px;
         margin-bottom:-15px;
       }
     }
     .archive-other__row:nth-child(3){
-      img{
+      .title-img{
         width:127px;
         margin-left:-20px;
         margin-bottom:-15px;
       }
     }
     .archive-other__row:nth-child(4){
-      img{
+      .title-img{
         width:106px;
         margin-left:-20px;
         margin-bottom:-15px;
@@ -276,13 +276,13 @@
         flex-wrap: wrap;
        
       }
-      .archive-other__article-item{
+      .index-popular__article-item{
         width: calc((100% - 120px) / 4);
         position:relative;
         &:not(:last-child){
           margin-right:40px;
         }
-        .archive-other__article-caption{
+        .index-popular__article-caption{
           border-radius: 6px;
           overflow: hidden;
           display: flex;
@@ -293,25 +293,20 @@
           a{
             width:100%;
             position: relative;
-            &::before{
-              content: "";
-              display: block;
-              padding-top: 100%;
-            }
             img{
-              position: absolute;
               width: 100%;
               height: 100%;
-              top: 0;
-              right: 0;
-              bottom: 0;
-              left: 0;
-              margin: auto;
               object-fit: cover;
             }
           }
         }
-        .archive-other__article-text{
+        .index-popular__article-text{
+          .article-tag{
+            display: none;
+          }
+          .article-content{
+            display: none;
+          }
           .article-title{
             position: relative;
             margin-bottom:18px;
