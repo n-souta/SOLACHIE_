@@ -49,7 +49,8 @@
     .index-new__title{
     @include section-title;
     img{
-      width:95px;
+      width:14vw;
+      max-width:95px;
     }
     }
     .index-new__article--sm{
@@ -803,6 +804,13 @@
           transform: translateX(0);
           margin-bottom:20px;
           height: auto;
+          .sun-icon{
+            position:absolute;
+            left: 45%;
+            top:62%;
+            width:16vw;
+            max-width:107px;
+          }
           .seminar__frame{
             width:100%;
             max-width: 400px;

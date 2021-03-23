@@ -62,7 +62,6 @@ html {
   box-sizing: border-box;
   font-size: 100%;
   -webkit-font-smoothing: antialiased;
-  scroll-behavior: smooth;
   @include responsive(sm){
     font-size: 92.9%;
   }

@@ -24,12 +24,17 @@ var mySwiper = new Swiper('.swiper-container', {
 
 
 $(function(){
-  $('.checkbox-toggle').click(function() {
-      if ($(this).prop('checked')) {
-          $('html').addClass('fixed');
-        } else {
-          $('html').removeClass('fixed');
-      }
+  $('.checkbox-toggle').on('change', function(){
+    var st = $(window).scrollTop();
+    if($(this).prop("checked") == true) {
+      $('html').addClass('scroll-prevent');
+      $('html').css('top', -(st) + 'px');
+      $('.checkbox-toggle').on('change', function(){
+        if($(this).prop("checked") !== true) {
+          $('html').removeClass('scroll-prevent');
+          $(window).scrollTop(st);
+        }
+      });
+    }
   });
 });
-

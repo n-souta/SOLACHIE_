@@ -6,11 +6,13 @@
 *{
     box-sizing: border-box;
   }
-  .fixed{
-    overflow: hidden;
-    width:100%;
-  }
-  
+
+  .scroll-prevent {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    }
   body{
     font-size: 1em;
     line-height: 1.5;

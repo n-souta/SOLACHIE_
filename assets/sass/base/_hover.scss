@@ -5,7 +5,6 @@
 
 
 .header__logo,
-.header__gnav-item,
 .article-title,
 .article-content,
 .article-date,
@@ -33,7 +32,8 @@
 .index-interview__article-caption img,
 .archive-category__article-caption img,
 .archive-other__article-caption img,
-.single-other__article-caption img{
+.single-other__article-caption img,
+.header__gnav-link img{
   transform: scale(1.1);
   transition: all .4s linear;
   -webkit-transition: all .4s linear;
@@ -47,4 +47,10 @@
 .archive-other__article-caption img:hover,
 .single-other__article-caption img:hover{
   transform: scale(1);
+}
+
+.header__gnav-item:hover{
+  .header__gnav-link img{
+    transform: scale(1);
+  }
 }

@@ -380,7 +380,6 @@ html {
   box-sizing: border-box;
   font-size: 100%;
   -webkit-font-smoothing: antialiased;
-  scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 768px) {
@@ -399,9 +398,11 @@ html {
   box-sizing: border-box;
 }
 
-.fixed {
-  overflow: hidden;
+.scroll-prevent {
+  position: fixed;
+  z-index: -1;
   width: 100%;
+  height: 100%;
 }
 
 body {
@@ -452,7 +453,6 @@ ul {
 }
 
 .header__logo:hover,
-.header__gnav-item:hover,
 .article-title:hover,
 .article-content:hover,
 .article-date:hover,
@@ -476,7 +476,8 @@ ul {
 .index-interview__article-caption img,
 .archive-category__article-caption img,
 .archive-other__article-caption img,
-.single-other__article-caption img {
+.single-other__article-caption img,
+.header__gnav-link img {
   transform: scale(1.1);
   transition: all .4s linear;
   -webkit-transition: all .4s linear;
@@ -490,6 +491,10 @@ ul {
 .archive-category__article-caption img:hover,
 .archive-other__article-caption img:hover,
 .single-other__article-caption img:hover {
+  transform: scale(1);
+}
+
+.header__gnav-item:hover .header__gnav-link img {
   transform: scale(1);
 }
 
@@ -620,10 +625,6 @@ ul {
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.header .header__inner .header__sidebar .checkbox-toggle:checked:hover + .hamburger > div {
-  transform: rotate(225deg);
-}
-
 .header .header__inner .header__sidebar .hamburger {
   position: absolute;
   top: 0;
@@ -688,8 +689,8 @@ ul {
 }
 
 .header .header__inner .header__sidebar .menu > div {
-  width: 500vw;
-  height: 500vw;
+  width: 300vw;
+  height: 300vw;
   color: #fff;
   background: #29abe2;
   border-radius: 50%;
@@ -768,7 +769,7 @@ ul {
   display: flex;
   justify-content: space-between;
   padding: 0 60px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .header .header__inner .header__gnav .header__gnav-list .header__gnav-item .header__gnav-link {
@@ -2051,9 +2052,17 @@ ul {
 .seminar__section .section__content-wrapper .section__content-box .seminar__image {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
-  transform: translateX(20px);
+  margin-bottom: 0px;
+  transform: translate(20px, -50px);
   height: auto;
+}
+
+.seminar__section .section__content-wrapper .section__content-box .seminar__image .sun-icon {
+  position: absolute;
+  left: 4vw;
+  top: 0;
+  width: 10vw;
+  max-width: 107px;
 }
 
 .seminar__section .section__content-wrapper .section__content-box .seminar__image .seminar__frame {
@@ -3646,7 +3655,8 @@ ul {
 
 @media screen and (max-width: 768px) {
   .index-new .index-new__title img {
-    width: 95px;
+    width: 14vw;
+    max-width: 95px;
   }
   .index-new .index-new__article--sm .index-new__article-item--sm-first {
     width: 90%;
@@ -4467,6 +4477,13 @@ ul {
     transform: translateX(0);
     margin-bottom: 20px;
     height: auto;
+  }
+  .seminar__section .section__content-wrapper .section__content-box .seminar__image .sun-icon {
+    position: absolute;
+    left: 45%;
+    top: 62%;
+    width: 16vw;
+    max-width: 107px;
   }
   .seminar__section .section__content-wrapper .section__content-box .seminar__image .seminar__frame {
     width: 100%;
@@ -6260,9 +6277,5 @@ ul {
 
 .menu a {
   margin-right: 15px;
-}
-
-.active {
-  position: fixed;
 }
 /*# sourceMappingURL=style.css.map */

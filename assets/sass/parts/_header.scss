@@ -123,9 +123,7 @@
           box-shadow: inset 0 0 10px rgba(0, 0, 0, .1);
         }
         
-        &:checked:hover + .hamburger > div {
-          transform: rotate(225deg);
-        }
+      
       }
       
       .hamburger {
@@ -192,8 +190,8 @@
       justify-content: center;
         
         > div {
-          width: 500vw;
-          height: 500vw;
+          width: 300vw;
+          height: 300vw;
           color: $main-color;
           background: $content-bg-color;
           border-radius: 50%;
@@ -205,6 +203,7 @@
           display: flex;
       align-items: center;
       justify-content: center;
+      
           
           > div {
             text-align: center;
@@ -274,7 +273,7 @@
         display: flex;
         justify-content: space-between;
         padding:0 60px;
-        padding-bottom:30px;
+        padding-bottom:20px;
         .header__gnav-item{
           .header__gnav-link{
             display: flex;

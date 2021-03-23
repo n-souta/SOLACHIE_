@@ -785,9 +785,16 @@
       .seminar__image{
         display: flex;
         justify-content: center;
-        margin-bottom:50px;
-        transform: translateX(20px);
+        margin-bottom:0px;
+        transform: translate(20px,-50px);
         height: auto;
+        .sun-icon{
+          position:absolute;
+          left: 4vw;
+          top:0;
+          width:10vw;
+          max-width:107px;
+        }
         .seminar__frame{
           width:900px;
           align-self: flex-start; 
