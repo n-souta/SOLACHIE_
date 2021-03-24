@@ -6268,14 +6268,4 @@ ul {
     font-size: 1.5rem;
   }
 }
-
-.menu {
-  display: flex;
-  position: absolute;
-  bottom: -30px;
-}
-
-.menu a {
-  margin-right: 15px;
-}
 /*# sourceMappingURL=style.css.map */
